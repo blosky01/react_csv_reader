@@ -4,7 +4,7 @@ import Papa from "papaparse";
 
 function App() {
   // State to store parsed data
-  const [parsedData, setParsedData] = useState([]);
+  const [setParsedData] = useState([]);
 
   //State to store table Column name
   const [tableRows, setTableRows] = useState([]);
