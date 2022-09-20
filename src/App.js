@@ -23,7 +23,10 @@ function App() {
         const valuesArray = [];
 
         // Iterating data to get column name and their values
+
+        // eslint-disable-next-line array-callback-return
         results.data.map((d) => {
+          // eslint-disable-next-line array-callback-return
           rowsArray.push(Object.keys(d));
           valuesArray.push(Object.values(d));
         });
